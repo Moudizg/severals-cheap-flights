@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/mynav"
+            app:startDestination="@id/firstFragment1">
+    <fragment android:id="@+id/firstFragment1" android:name="com.example.severalscheapflights.ui.FirstFragment"
+              android:label="fragment_first" tools:layout="@layout/fragment_first"/>
+    <fragment android:name="com.example.severalscheapflights.ui.secondfragment"
+              android:label="fragment_secondfragment" tools:layout="@layout/fragment_secondfragment"
+              android:id="@+id/secondFragment1"/>
+    <fragment android:id="@+id/thirdFragment1" android:name="com.example.severalscheapflights.ui.ThirdFragment"
+              android:label="fragment_third" tools:layout="@layout/fragment_third"/>
+    <fragment android:id="@+id/profileFragment2" android:name="com.example.severalscheapflights.ui.profileFragment"
+              android:label="fragment_profile" tools:layout="@layout/fragment_profile"/>
+</navigation>
